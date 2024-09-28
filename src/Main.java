@@ -25,5 +25,21 @@ public class Main {
         System.out.println("Iklim             : " + fr.getIklim());
         System.out.println("Tanah             : " + fr.getTanah());
         System.out.println("Hewan Penyerbuk   : " + fr.getHewan_penyerbuk());
+        
+        
+        Bunga_Kamboja bunga = new Bunga_Kamboja();
+
+        bunga.setnama_ilmiah("Plumeria rubra");
+        bunga.setWarna("Putih dengan pusat Kuning");
+        bunga.setIklim("Tropis");
+        bunga.setTanah("Berdrainase baik");
+        bunga.setHewan_penyerbuk("Lebah");
+
+        System.out.println("\n\t\t\tBunga Kamboja");
+        System.out.println("Nama Ilmiah       : " + bunga.getnama_ilmiah());
+        System.out.println("Warna             : " + bunga.getWarna());
+        System.out.println("Iklim             : " + bunga.getIklim());
+        System.out.println("Tanah             : " + bunga.getTanah());
+        System.out.println("Hewan Penyerbuk   : " + bunga.getHewan_penyerbuk());
     }
 }
